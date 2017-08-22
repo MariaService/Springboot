@@ -1,0 +1,43 @@
+#Spring properties
+spring:
+  aop:
+    auto: true
+    proxy-target-class: false
+  messages:
+    always-use-message-format: false
+    basename: messages
+    cache-seconds: -1
+  mvc:
+    dispatch-trace-request: false
+    dispatch-options-request: false
+  couchbase:
+    bucket:
+      name: default      
+# THYMELEAF 
+  thymeleaf:
+   cache: true
+   check-template: true
+   content-type: text/html
+   encoding: UTF-8
+   excluded-view-names:
+   mode: HTML5
+   suffix: .html
+   template-resolver-order: 
+   view-names:
+     
+#Security properties
+security:
+  oauth2:
+    resource:
+      prefer-token-info: true
+      service-id: resource
+      
+ #Banner
+banner:
+  charset: UTF-8 # Banner file encoding.
+  location: /ResourceBanner/banner.txt
+
+
+
+      
+      

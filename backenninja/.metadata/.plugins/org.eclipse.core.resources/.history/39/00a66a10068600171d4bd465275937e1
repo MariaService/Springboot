@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>example</title>
+</head>
+<body>
+	<!-- <h1>hola <span th:text="${person.name}"></span>!!!!</h1>
+<h1>edad: <span th:text="${person.age}"></span>!!!!</h1> -->
+
+	<table>
+		<thead>
+			<tr>
+			<th>
+			NAME
+			</th>
+			<th>
+			Age
+			</th>
+			</tr>
+		</thead>
+	</table>
+
+
+</body>
+</html>

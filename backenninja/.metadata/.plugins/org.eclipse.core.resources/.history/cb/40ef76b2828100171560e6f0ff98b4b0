@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>example</title>
+</head>
+<body>
+<h1>hola <span th:text="${Persona.name}"></span>!!!!</h1>
+<h1>edad: <span th:text="${Person.age}"></span>!!!!</h1>
+</body>
+</html>
